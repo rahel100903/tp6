@@ -1,0 +1,30 @@
+/*Ex1*/
+a:link{
+    color: red;
+}
+a:visited{
+    color: yellow;
+}
+a:hover{
+    color: pink;
+}
+div.hove:hover{
+    background-color: yellow;
+}
+p span:first-child{
+    text-decoration: underline;
+    color: red;
+}
+/*Ex2*/
+div.line::first-line{
+    color: rgb(245, 9, 9);
+}
+div.line::first-letter{
+    color: blue;
+    font-size: large;
+}
+::selection{
+    color:red;
+
+    background-color:  yellow;
+}
